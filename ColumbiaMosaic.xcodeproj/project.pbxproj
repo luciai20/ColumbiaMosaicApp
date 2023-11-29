@@ -14,6 +14,7 @@
 		F9DFB6A82AF1B8AE00E7B9B9 /* ColumbiaMosaicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DFB6A72AF1B8AE00E7B9B9 /* ColumbiaMosaicTests.swift */; };
 		F9DFB6B22AF1B8AE00E7B9B9 /* ColumbiaMosaicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DFB6B12AF1B8AE00E7B9B9 /* ColumbiaMosaicUITests.swift */; };
 		F9DFB6B42AF1B8AE00E7B9B9 /* ColumbiaMosaicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DFB6B32AF1B8AE00E7B9B9 /* ColumbiaMosaicUITestsLaunchTests.swift */; };
+		F9DFB6C72AF817D600E7B9B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DFB6C62AF817D600E7B9B9 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F9DFB6AD2AF1B8AE00E7B9B9 /* ColumbiaMosaicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColumbiaMosaicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DFB6B12AF1B8AE00E7B9B9 /* ColumbiaMosaicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumbiaMosaicUITests.swift; sourceTree = "<group>"; };
 		F9DFB6B32AF1B8AE00E7B9B9 /* ColumbiaMosaicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumbiaMosaicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9DFB6C62AF817D600E7B9B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F9DFB6962AF1B8AC00E7B9B9 /* ColumbiaMosaicApp.swift */,
 				F9DFB6982AF1B8AC00E7B9B9 /* ContentView.swift */,
+				F9DFB6C62AF817D600E7B9B9 /* ListView.swift */,
 				F9DFB69A2AF1B8AE00E7B9B9 /* Assets.xcassets */,
 				F9DFB69C2AF1B8AE00E7B9B9 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				F9DFB6992AF1B8AC00E7B9B9 /* ContentView.swift in Sources */,
 				F9DFB6972AF1B8AC00E7B9B9 /* ColumbiaMosaicApp.swift in Sources */,
+				F9DFB6C72AF817D600E7B9B9 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
