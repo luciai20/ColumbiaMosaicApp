@@ -19,19 +19,8 @@ def save_data_to_file(data):
 data = load_data_from_file()
 current_id = max([event["id"] for event in data], default=0)
 
-current_id = 2
-data = [
-    {
-        "id": 1,
-        "subject": "Announcement 1 Subject",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-    },
-    {
-        "id": 2,
-        "subject": "Announcement 2 Subject",
-        "body": "Mauris et auctor turpis. Integer mollis pulvinar facilisis..."
-    },
-]
+current_id = 0
+data = []
 
 @app.route('/')
 def home():

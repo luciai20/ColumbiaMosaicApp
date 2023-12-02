@@ -1,22 +1,7 @@
 [
     {
         "id": 1,
-        "subject": "Announcement 1 Subject",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-    },
-    {
-        "id": 2,
-        "subject": "Announcement 2 Subject",
-        "body": "Mauris et auctor turpis. Integer mollis pulvinar facilisis..."
-    },
-    {
-        "id": 3,
-        "subject": "hello",
-        "body": "sjsj"
-    },
-    {
-        "id": 4,
-        "subject": "jsjs",
-        "body": "sjsjsj"
+        "subject": "hll",
+        "body": "sdfsdf"
     }
 ]
