@@ -1,9 +1,23 @@
 from flask import Flask
 from flask import render_template
 from flask import Response, request, jsonify
+import json
 
 app = Flask(__name__)
-print("running")
+
+def load_data_from_file():
+    try:
+        with open('events_data.json', 'r') as file:
+            return json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_data_to_file(data):
+    with open('events_data.json', 'w') as file:
+        json.dump(data, file, indent=4)
+
+data = load_data_from_file()
+current_id = max([event["id"] for event in data], default=0)
 
 current_id = 2
 data = [
@@ -44,6 +58,7 @@ def submit_event():
             "body": event_description
         }
         data.append(new_event)
+        save_data_to_file(data)
         print(data)
         # Redirect to announcements page or return a success message
         return jsonify({"message": "Event successfully added", "new_event": new_event})
